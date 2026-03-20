@@ -2,7 +2,7 @@ import Foundation
 import SwiftData
 
 
-// 4. Helper Enum (Not a @Model, just pure Swift logic)
+// 4. Helper Enum
 enum MealType: String, CaseIterable, Codable {
     case breakfast = "Breakfast"
     case lunch = "Lunch"

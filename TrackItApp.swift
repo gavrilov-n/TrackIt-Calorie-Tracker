@@ -12,7 +12,7 @@ import SwiftData
 struct TrackItApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrackItMainView()
         }
         .modelContainer(for: Day.self)
     }
